@@ -40,7 +40,7 @@ public class Utils {
 
             //Writing the file
             FileWriter fw = new FileWriter(fileName, true);
-            fw.write(_content);
+            fw.write("\n\n" + _content);
             fw.close();
 
         }catch (Exception e) { Messagebox_Err(e.toString()); }
