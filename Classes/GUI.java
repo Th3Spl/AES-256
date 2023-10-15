@@ -45,6 +45,7 @@ public class GUI {
 
         JFrame frame = new JFrame("AES-256 Encrypter By: Th3Spl");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);
         frame.setSize(350,200);
         frame.setLayout(new FlowLayout());
         frame.setLocation(400, 400);
