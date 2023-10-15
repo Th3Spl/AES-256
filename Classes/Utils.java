@@ -8,27 +8,10 @@ import javax.swing.JOptionPane;
 
 public class Utils {
     
-    //Information box
-    public static void MessageBox_Info(String _content) {
-        JOptionPane.showMessageDialog(null, _content, "Info!", JOptionPane.INFORMATION_MESSAGE);
-        return;
-    }
-
-    //Warning box
-    public static void MessageBox_Warn(String _content) {
-        JOptionPane.showMessageDialog(null, _content, "Warn!", JOptionPane.WARNING_MESSAGE);
-        return;
-    }
-
     //Error box
     public static void Messagebox_Err(String _content) {
         JOptionPane.showMessageDialog(null, _content, "Error!", JOptionPane.ERROR_MESSAGE);
         return;
-    }
-
-    //Plain box
-    public static void MessageBox_Plain(String _content, String _title) {
-        JOptionPane.showMessageDialog(null, _content, _title, JOptionPane.PLAIN_MESSAGE);
     }
 
     public static void saveToFile(String _content) {
